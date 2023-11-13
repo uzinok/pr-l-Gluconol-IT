@@ -332,6 +332,7 @@ input[placeholder="Ваш телефон"] {
     position: absolute;
     width: 30px;
     height: 30px;
+    background-image: url(../img/cross.svg);
     background-size: 100%;
     top: -40px;
     border-radius: 50%;
@@ -696,6 +697,7 @@ a.button:hover {
 }
 
 #comments h2 {
+    background: url('../img/comentsm.jpg') no-repeat;
     padding-left: 40px;
     color: #000;
     border-bottom: 0px solid;
@@ -787,6 +789,7 @@ button::-moz-focus-inner {
 }
 
 #comments h2 {
+    background: url('../img/comentsm.jpg') no-repeat;
     padding-left: 40px;
     color: #000;
     border-bottom: 0px solid;
@@ -868,13 +871,13 @@ button::-moz-focus-inner {
     background-color: #FFF5F7;
     text-align: center;
 }
-
+ 
 
 @media (min-width: 600px) and (max-width: 739px) {
     #order_form {
         padding: 20px !important;
         margin: 0px -12px !important;
-
+        
     }
 }
 
@@ -882,7 +885,7 @@ button::-moz-focus-inner {
     #order_form {
         padding: 20px !important;
         margin: 0px -26px !important;
-
+        
     }
 }
 
@@ -928,6 +931,7 @@ button::-moz-focus-inner {
     max-width: 600px;
     font-family: Arial;
     margin: 20px;
+    background-image: url(../img/formbg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-bottom: 55px;
@@ -992,7 +996,7 @@ button::-moz-focus-inner {
 
     #order_form {
         padding: 10px;
-
+        
     }
 
     #order_form .order_form_pole {
@@ -1046,7 +1050,7 @@ p.rul_2 {
     font-size: 120%;
 }
 
-
+													
 													.priceс {
     position: absolute;
     font-family: 'Arial', sans-serif;
@@ -1092,8 +1096,8 @@ p.rul_2 {
 b, strong {
     font-weight: bolder;
 }
-
-
+ 
+ 
 .prod_img_wrapper {
 
     max-width: 300px;
@@ -1294,7 +1298,7 @@ span.discountс {
 .ct {
     text-align: center;
 }
-
+ 
 
 .cti {
     text-align: center;
@@ -1317,3 +1321,8 @@ span.discountс {
     text-align: center;
     font-weight: bold;
 }
+
+
+
+
+ 
