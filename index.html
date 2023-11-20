@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+      <!-- удалить -->
+      <meta name="robots" content="noindex, nofollow" />
+      <!-- удалить -->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -213,7 +217,7 @@
 		<input type="hidden" name="link_id" value="10254">
         <input type="hidden" name="product_name" value="gluconol">
         <input type="hidden" name="offer" value="7946">
-        <input type="hidden" name="landing" value=""> 
+        <input type="hidden" name="landing" value="">
         <input type="hidden" name="partner" value="litbit">
         <input type="hidden" name="price" value="39">
         <input type="hidden" name="flow" value="c4PS">
@@ -223,11 +227,11 @@
         <input type="hidden" value="Lead" name="ev">
         <input type="hidden" value="" name="sub2">
         <input type="hidden" value="FB-maere" name="sub3">
-        <input type="hidden" value="FB-maere_miraKG" name="sub4"> 
+        <input type="hidden" value="FB-maere_miraKG" name="sub4">
         <input type="hidden" name="target" value="">
 		<input type="hidden" name="mga" value="">
 		<input type="hidden" name="special_text" value="">
-		
+
 
                                             <span class="span-input-roulette name_in">
                                                 <input class="input-roulette" name="name" required="" placeholder="Inserisci il tuo nome" type="text">
@@ -482,7 +486,7 @@
             </div>
         </div>
     </footer>
-    
+
 
 <div id="podlogka"></div>
 <div id="new_window">
@@ -498,24 +502,24 @@
 			<input type="hidden" name="img_url" class="img_url" value="">
 			<input type="hidden" name="current_block" class="current_block" value="">
 			<div class="in">
-				
-				
+
+
 				<label class="file_input">
 					<input type="file" name="file" class="" accept="image/*">
 					<span class="name"></span>
 				</label>
-				
+
 			</div>
 			<div class="buts"><input type="submit" name="submit" value="" class="submit_button button bue_button"></div>
 		</form>
 	</div>
 </div>
 
- 
 
-<script>	
+
+<script>
 //ОТправка формы
-var err_message = {           
+var err_message = {
     at: "Geben Sie die richtige Telefonnummer ein",
     bg: "Въведете правилния телефонен номер",
     co: "Ingrese el número de teléfono correcto",
@@ -549,7 +553,7 @@ var err_message = {
     en: "Enter the correct phone number",
     rs: "Унесите тачан телефонски број",
     hr: "Unesite točan telefonski broj",
-    pk: "درست فون نمبر درج کریں",  
+    pk: "درست فون نمبر درج کریں",
     ch: "Geben Sie die richtige Telefonnummer ein",
     iq: "أدخل رقم الهاتف الصحيح",
     sa: "أدخل رقم الهاتف الصحيح",
@@ -566,28 +570,28 @@ $( document ).ready(function() {
 });
 
 
-var sended = false;        
+var sended = false;
 $("form").submit(function (e) {
     var form = $(this);
     console.log(111);
-    if (!sended) {                
-                                                         
+    if (!sended) {
+
         if ( form.find('input[name="phone"]').val().length < 6 ) {
-                        
-            form.find('#phone_error').show();                          
+
+            form.find('#phone_error').show();
             e.preventDefault();
 
          } else {
-                    
+
             sended = true;
             return;
 
          }
-                 
+
     } else return false;
 
-}); 
-	
+});
+
 </script>
 
 
